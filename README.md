@@ -29,9 +29,9 @@ Searching for Elements in a List:
 
 We have two methods for searching: linear search and binary search
 
-Linear Search is where check each element one by one until we find the target value, the time complexity is O(n)
+    Linear Search is where check each element one by one until we find the target value, the time complexity is O(n)
 
-Binary Search only works if our list is sorted, we repeatedly find the midpoint and determine whether our target value is to the left or right
+    Binary Search only works if our list is sorted, we repeatedly find the midpoint and determine whether our target value is to the left or right
 
 Binary Search is much faster than Linear Search but if our list is not sorted then it is faster to do Linear Search as it would take longer to sort the list and then perform a Binary Search
     
