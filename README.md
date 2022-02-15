@@ -8,7 +8,7 @@ Adding Elements O(n):
 
     append() = add a single element at the end of the list
     extend() = add more than one element at the end of the list
-    insert() = add an element at a specified position
+    insert(index, val) = add an element at a specified position
     
 Removing Elements O(n):
 
