@@ -44,6 +44,16 @@ Binary Search is much faster than Linear Search but if our list is not sorted th
     
 Looking up an element by its index is O(1) and looking up an element by its value is O(n)
 
+Iterating Through Lists:
+
+    for = used when the number of iterations are known
+    
+    for i in list = i has the value of each element
+    
+    for i in range(len(list)) = i has the index of each element
+    
+    while = used when the number of iterations is unknown
+
 Unique Tools:
 
     index(element) = returns the index of the specified element in the list
