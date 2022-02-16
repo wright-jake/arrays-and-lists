@@ -2,6 +2,13 @@
 
 We basically only use lists for DSA, the main difference between arrays and lists is that arrays can only store one data type whereas lists can store multiple data types
 
+Accessing Elements:
+
+Lists in Python use 0-based indexing
+
+    list[index] = access element in a 1D list 
+    list[index[sub-index]] = access element in a 2D/nested list
+
 They use 0-based indexing
 
 Adding Elements O(n):
