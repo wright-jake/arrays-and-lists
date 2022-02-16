@@ -47,5 +47,3 @@ Looking up an element by its index is O(1) and looking up an element by its valu
 Unique Tools:
 
     index(element) = returns the index of the specified element in the list
-    
-    list[0[1]] = access the second element in the first sublist (how to access elements in nested lists)
