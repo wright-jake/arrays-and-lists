@@ -36,3 +36,9 @@ We have two methods for searching: linear search and binary search
 Binary Search is much faster than Linear Search but if our list is not sorted then it is faster to do Linear Search as it would take longer to sort the list and then perform a Binary Search
     
 Looking up an element by its index is O(1) and looking up an element by its value is O(n)
+
+Unique Tools:
+
+    index(element) = returns the index of the specified element in the list
+    
+    list[0[1]] = access the second element in the first sublist (how to access elements in nested lists)
