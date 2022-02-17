@@ -7,7 +7,7 @@ Accessing Elements:
 Lists in Python use 0-based indexing
 
     list[index] = access element in a 1D list 
-    list[index[sub-index]] = access element in a 2D/nested list
+    list[index][sub-index] = access element in a 2D/nested list
 
 They use 0-based indexing
 
