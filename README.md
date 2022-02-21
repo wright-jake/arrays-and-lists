@@ -54,6 +54,14 @@ Iterating Through Lists:
     
     while = used when the number of iterations is unknown
 
+2D Lists:
+
+    To return number of rows we use len(list)
+    
+    To return number of columns we use len(list[0])
+
 Unique Tools:
 
     index(element) = returns the index of the specified element in the list
+    
+    reverse() = reverses the list
