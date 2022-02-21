@@ -65,3 +65,10 @@ Unique Tools:
     index(element) = returns the index of the specified element in the list
     
     reverse() = reverses the list
+    
+  
+Strings:
+
+Also use 0-based indexing
+
+Strings are immutable in Python (we can't change the content of a string once it is initialised)
