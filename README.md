@@ -72,3 +72,35 @@ Strings:
 Also use 0-based indexing
 
 Strings are immutable in Python (we can't change the content of a string once it is initialised)
+
+
+Sorting:
+
+Selection Sort works by finding the minimum and moving it to the left each time
+
+    class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        
+        #we will start from the beginning of our array
+        for i in range(len(nums)):
+            
+            #assume that the first number in the list is the minimum
+            minimum = i
+            
+            #we then compare this minimum with the rest of the list
+            for j in range(i + 1, len(nums)):
+                
+                #if we find a smaller number
+                if nums[j] < nums[minimum]:
+                    
+                    #then we set this as our new minimum
+                    minimum = j
+            
+            #checks to see if a new minimum has been found
+            if minimum != i:
+                
+                #if yes then swap the places of these
+                nums[minimum], nums[i] = nums[i], nums[minimum]
+        
+        #return array which has been sorted by selection sort
+        return nums
