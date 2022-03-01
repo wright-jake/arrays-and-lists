@@ -104,3 +104,33 @@ Selection Sort works by finding the minimum and moving it to the left each time
         
         #return array which has been sorted by selection sort
         return nums
+        
+Bubble Sort works by comparing each value next to each other, after each pass the next largest number will be left on the far right
+
+    class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+    
+        #we can use this to break out our loop when it is fully sorted
+        completeSort = False
+
+        #stopping condition
+        while not completeSort:
+
+            #if no changes are made then completeSort will stay as true and the loop will break out
+            completeSort = True
+
+            #we can't create a bubble for the last number so iterate through up to the second to last element
+            for i in range(len(nums) - 1):
+
+                #if the number to the left is bigger than the number on the right
+                if nums[i] > nums[i + 1]:
+
+                    #state that we have performed a change
+                    completeSort = False
+
+                    #swap the values in the bubble
+                    nums[i], nums[i + 1] = nums[i + 1], nums[i]
+
+        #return array which has been sorted by bubble sort
+        return nums
+        
