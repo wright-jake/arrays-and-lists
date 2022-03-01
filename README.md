@@ -134,3 +134,23 @@ Bubble Sort works by comparing each value next to each other, after each pass th
         #return array which has been sorted by bubble sort
         return nums
         
+Insertion Sort works quite similar to how you would sort cards in your hands, moving one through each time
+
+    class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+    
+        #we will be comparing with the number to the left
+        for i in range(1, len(nums)):
+            
+            #if number to the left is bigger we will swap them
+            while nums[i - 1] > nums[i] and i > 0:
+                
+                #perform the swap
+                nums[i], nums[i - 1] = nums[i - 1], nums[i]
+                
+                #continue working through the list
+                i = i - 1
+        
+        #return array which has been sorted by insertion sort
+        return nums
+        
